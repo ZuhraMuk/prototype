@@ -1,0 +1,453 @@
+* {
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 1600px;
+	min-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header {
+}
+
+.header__top {
+	display: flex;
+	justify-content: space-around;
+}
+.header__top--left {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 1000px;
+	width: 100%;
+}
+.header__top--left ul {
+	display: flex;
+	justify-content: space-between;
+	max-width: 550px;
+	width: 100%;
+}
+.header__top--left ul li a {
+	list-style-type: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 54px;
+	color: black;
+	font-weight: 500;
+	margin-right: 10px;
+	/* display: flex; */
+}
+
+.header__top--right ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__top--right ul li {
+	margin-right: 10px;
+}
+.header__top--right img {
+	max-width: 20px;
+	width: 100%;
+	height: 20px;
+	margin-right: 5px;
+}
+.header__bottom {
+	display: flex;
+	justify-content: center;
+	max-width: 1300px;
+	width: 100%;
+	margin-left: 15px;
+}
+.header__bottom button {
+	padding: 10px;
+	margin-left: 20px;
+	background: none;
+	border: 1px solid #cccc;
+	/* padding: 12px; */
+	height: 60px;
+	align-self: center;
+	font-size: 16px;
+}
+
+.city {
+	max-width: 490px;
+	width: 100%;
+	font-size: 18px;
+	background-image: url(/img/search-interface-symbol.png) no-repeat;
+	background-size: 30px 30px;
+	padding-left: 30px;
+	border: 1px solid rgb(56, 56, 56);
+}
+.date {
+	max-width: 210px;
+	width: 100%;
+	margin-left: 15px;
+	font-size: 18px;
+	border: 1px solid rgb(56, 56, 56);
+}
+.hotel {
+	max-width: 300px;
+	width: 100%;
+	background: #f8ab00 !important;
+	cursor: pointer;
+}
+.header__bottom img {
+	max-width: 20px;
+	width: 100%;
+	height: 20px;
+	margin-right: 5px;
+}
+.main {
+	margin-top: 20px;
+	width: 1600px;
+	width: 100%;
+	background-image: url(./img/l-officine-du-louvre.jpg);
+	background-repeat: no-repeat;
+	background-position: center fixed;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 500px;
+	
+}
+.main_sub {
+	background-color: rgba(0, 0, 0, 0.54);
+	max-width: 700px;
+	width: 100%;
+	height: 318px;
+	margin-left: 330px;
+	margin-top: 60px;
+	position: absolute;
+	bottom: 60px;
+	text-align: center;
+	color: #ffff;
+}
+
+.main_sub h3 {
+	font-size: 36px;
+	line-height: 46px;
+	font-family: 'Yeseva One';
+	font-weight: 500;
+}
+.main_sub p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	max-width: 512px;
+	width: 100%;
+	line-height: 24px;
+	font-weight: 400;
+	margin-left: 90px;
+}
+.main_sub button {
+	background: none;
+	border: 1px solid #ffff;
+	max-width: 156px;
+	width: 100%;
+	height: 45px;
+
+	cursor: pointer;
+}
+.main_sub button a {
+	color: #ffff;
+	font-size: 16px;
+	line-height: 20px;
+}
+.main_sub button:hover{
+background-color: rgba(255, 255, 255, 0.54);
+}
+.blocks {
+	background: #f6f6f6;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: space-around;
+}
+.block-1 {
+	max-width: 380px;
+	width: 100%;
+	text-align: center;
+	background: #ffff;
+	line-height: 28px;
+}
+.block-1 h3 {
+	font-size: 22px;
+}
+.block-1 p a {
+	text-transform: uppercase;
+	color: #0072ce;
+	font-size: 14px;
+	font-weight: 700;
+}
+.block-1 img {
+	max-width: 380px;
+	width: 100%;
+	height: 290px;
+}
+
+.footer {
+	background-color: #282828;
+	padding: 10px;
+	color: #ffff;
+	display: flex;
+	justify-content: center;
+}
+
+.footer h3 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 18px;
+}
+.footer p {
+	opacity: 0.5;
+}
+.block {
+	max-width: 350px;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+.footer__left--top {
+	display: flex;
+	justify-content: space-around;
+}
+.footer__left--bottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer__center {
+	background: rgb(255, 255, 255);
+	height: 530px;
+	max-width: 1px;
+	width: 100%;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+.footer__right--top h3 {
+	font-size: 25px;
+	line-height: 28px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer__right--top button {
+	max-width: 300px;
+	width: 100%;
+	padding: 8px 0 8px 0;
+	border: 1px solid #ffff;
+	background: none;
+	text-transform: uppercase;
+	color: #ffff;
+	font-size: 14px;
+	line-height: 19px;
+}
+.footer__right--center h3 {
+	max-width: 300px;
+	width: 100%;
+	margin-top: 50px;
+	font-size: 25px;
+	line-height: 28px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer__right--center img {
+	max-width: 130px;
+	width: 100%;
+	height: 40px;
+	margin-right: 10px;
+}
+.footer__right--bottom h3 {
+	max-width: 300px;
+	width: 100%;
+	margin-top: 50px;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer__right--bottom img {
+	margin-right: 20px;
+}
+.bottom {
+	background: #000000;
+	padding: 10px;
+	color: #ffff;
+	font-size: 14px;
+}
+.bottom ul {
+	display: flex;
+	justify-content: space-evenly;
+}
+.bottom ul li {
+	opacity: 0.5;
+}
+.bottom p {
+	opacity: 0.5;
+	text-align: center;
+}
+.a{
+	text-decoration: none;
+	color: rgb(158, 156, 156);
+}
+.a:hover{
+	text-decoration: underline;
+	color: aliceblue;
+	text-underline-offset: 2px;
+}
+.btn1{
+	text-decoration: none;
+    color: rgb(0, 0, 0);
+    	
+}
+.btn1:hover{
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.mouse{
+	cursor: pointer;
+}
+
+.iaz{
+	margin-top: 20px;
+	width: auto;
+	height: auto;
+	background: white;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+}
+.imgb{
+	vertical-align: middle;
+}
+
+.ppp:hover{
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.44);
+	
+}
+
+.wrapper{
+	display: inline-flex;
+}
+.wrapper .icon{
+	margin: 0 20px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	z-index: 2;
+	transition: all 0.4s cubic-bezier(0.68,-0.5,0.265,1.55);
+}
+
+.wrapper .icon span{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 50%;
+	z-index: 2;
+	text-align: center;
+	box-shadow: 0 10px 10px rgba(77, 76, 76, 0.1);
+	transition: all 0.4s cubic-bezier(0.68,-0.5,0.265,1.55);
+}
+
+.wrapper .icon span i{
+	font-size: 20px;
+	line-height: 50px;
+	color: #000000;
+}
+
+.wrapper .icon:hover span i{
+	color: #ffffff;
+}
+
+.wrapper .icon .tooltip{
+	position: absolute;
+	top: 0px;
+	font-size: 17px;
+	border-radius: 20px;
+	padding: 8px 8px;
+	color: #ffffff;
+	background: rgb(7, 7, 7);
+	box-shadow: 0 10px 10px rgba(252, 252, 252, 0.1);
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.4s cubic-bezier(0.68,-0.5,0.265,1.55);
+}
+
+.wrapper .icon:hover .tooltip{
+top: -60px;
+opacity: 1;
+pointer-events: auto;
+}
+
+.wrapper .icon .tooltip::before{
+	position: absolute;
+	content: "";
+	height: 15px;
+	width: 15px;
+	background: rgb(0, 0, 0);
+	bottom: -8px;
+	left: 50%;
+	transform: translateX(-50%) rotate(45deg);
+	transition: all 0.4s cubic-bezier(0.68,-0.5,0.265,1.55);
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before{
+	background: #3b5999;
+}
+
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before{
+	background: #46C1F6;
+}
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before{
+	background: #f01c63;
+}
+.wrapper .linkedin:hover span,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before{
+	background: #02a6ec;
+}
+
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before{
+	background: #f32020;
+}
+
+.b2b3b4{
+	text-decoration: none;
+}
+
+.b2b3b4:hover{
+	color: #9fddf8;
+	text-decoration: underline;
+}
+.popopo1{
+	text-decoration: none;
+	color: #000000;
+}
+.popopo1:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,473 @@
+.container {
+	max-width: 1600px;
+	min-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+}
+.btn1{
+	text-decoration: none;
+    color: rgb(0, 0, 0);
+    	
+}
+.btn1:hover{
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.a{
+	text-decoration: none;
+	color: rgb(158, 156, 156);
+}
+.a:hover{
+	text-decoration: underline;
+	color: aliceblue;
+	text-underline-offset: 2px;
+}
+
+
+.footer {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #282828;
+	padding: 10px;
+	color: #ffff;
+	display: flex;
+	justify-content: center;
+}
+
+.footer h3 {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 18px;
+}
+.footer p {
+	opacity: 0.5;
+}
+.block {
+	max-width: 350px;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+.footer__left--top {
+	display: flex;
+	justify-content: space-around;
+}
+.footer__left--bottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer__center {
+	background: #ffff;
+	height: 530px;
+	max-width: 1px;
+	width: 100%;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+.footer__right--top h3 {
+	font-size: 25px;
+	line-height: 28px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer__right--top button {
+	max-width: 300px;
+	width: 100%;
+	padding: 8px 0 8px 0;
+	border: 1px solid #ffff;
+	background: none;
+	text-transform: uppercase;
+	color: #ffff;
+	font-size: 14px;
+	line-height: 19px;
+}
+.footer__right--center h3 {
+	max-width: 300px;
+	width: 100%;
+	margin-top: 50px;
+	font-size: 25px;
+	line-height: 28px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer__right--center img {
+	max-width: 130px;
+	width: 100%;
+	height: 40px;
+	margin-right: 10px;
+}
+.footer__right--bottom h3 {
+	max-width: 300px;
+	width: 100%;
+	margin-top: 50px;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+.footer__right--bottom img {
+	margin-right: 20px;
+}
+.bottom {
+	background: #000000;
+	padding: 10px;
+	color: #ffff;
+	font-size: 14px;
+}
+.bottom ul {
+	list-style-type: none;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+}
+.bottom ul li {
+	opacity: 0.5;
+}
+.bottom p {
+	opacity: 0.5;
+	text-align: center;
+}
+.btn2{
+	text-decoration: none;
+    color: rgb(85, 10, 146);
+    text-underline-offset: 2.2px;	
+}
+.btn2:hover{
+	text-decoration: underline;
+	color: rgb(58, 189, 212);
+}
+.mouse{
+	cursor: pointer;
+}
+
+
+.bodii{
+	background-color: #dbdbdb;
+    font-family: sans-serif;
+}
+.wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+    margin: 20px 20px;
+    width: 350px;
+    height: 430px;
+    position: relative;
+    perspective: 1000px;
+}
+.front, .back{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+/*justify-content: center;
+align-items: center;*/
+transition: 1s;
+backface-visibility: hidden;
+border-radius: 10px;
+}
+.front{
+background-image: url(img2/rekl1.jpg);
+background-repeat: no-repeat;
+background-size: 350px 430px;
+
+}
+.back{
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+}
+.bb{
+    width: 350px;
+    height: 430px;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.bb2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.bb2:hover{
+    text-decoration: none;
+    color: black;
+}
+.card:hover .front{
+    transform: rotateY(180deg);
+}
+.card:hover .back{
+    transform: rotateY(360deg);
+}
+.rekl2{
+	width: 80px;
+	height: 17px;
+	background: #dad8d8;
+	font-size: 12px;
+	border-radius: 6px;
+	color: #000000;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+
+.card1{
+    margin: 20px 20px;
+    width: 350px;
+    height: 430px;
+    position: relative;
+    perspective: 1000px;
+}
+.front1, .back1{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+/*justify-content: center;
+align-items: center;*/
+transition: 1s;
+backface-visibility: hidden;
+border-radius: 10px;
+}
+.front1{
+background-image: url(img2/rekl2.jpg);
+background-repeat: no-repeat;
+background-size: 350px 430px;
+
+}
+.back1{
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+}
+.bb-1{
+    width: 350px;
+    height: 430px;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.bb2-1{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.bb2-1:hover{
+    text-decoration: none;
+    color: black;
+}
+.card1:hover .front1{
+    transform: rotateY(180deg);
+}
+.card1:hover .back1{
+    transform: rotateY(360deg);
+}
+.rekl2-1{
+	width: 80px;
+	height: 17px;
+	background: #dad8d8;
+	font-size: 12px;
+	border-radius: 6px;
+	color: #000000;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.card2{
+    margin: 20px 20px;
+    width: 350px;
+    height: 430px;
+    position: relative;
+    perspective: 1000px;
+}
+.front2, .back2{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+/*justify-content: center;
+align-items: center;*/
+transition: 1s;
+backface-visibility: hidden;
+border-radius: 10px;
+}
+.front2{
+background-image: url(img2/rekl3.jpg);
+background-repeat: no-repeat;
+background-size: 350px 430px;
+
+}
+.back2{
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+}
+.bb-2{
+    width: 350px;
+    height: 430px;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.bb2-2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.bb2-2:hover{
+    text-decoration: none;
+    color: black;
+}
+.card2:hover .front2{
+    transform: rotateY(180deg);
+}
+.card2:hover .back2{
+    transform: rotateY(360deg);
+}
+.rekl2-2{
+	width: 80px;
+	height: 17px;
+	background: #dad8d8;
+	font-size: 12px;
+	border-radius: 6px;
+	color: #000000;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+
+
+
+.iaz{
+	margin-top: 8px;
+	width: auto;
+	height: auto;
+	background: white;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+}
+.imgb{
+	vertical-align: middle;
+}
+
+.ppp:hover{
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.44);
+	
+}
+
+.wrapper{
+	display: inline-flex;
+}
+.wrapper .icon{
+	margin: 0 20px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	z-index: 2;
+	transition: all 0.4s cubic-bezier(0.68,-0.5,0.265,1.55);
+}
+
+.wrapper .icon span{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 50%;
+	z-index: 2;
+	text-align: center;
+	box-shadow: 0 10px 10px rgba(77, 76, 76, 0.1);
+	transition: all 0.4s cubic-bezier(0.68,-0.5,0.265,1.55);
+}
+
+.wrapper .icon span i{
+	font-size: 20px;
+	line-height: 50px;
+	color: #000000;
+}
+
+.wrapper .icon:hover span i{
+	color: #ffffff;
+}
+
+.wrapper .icon .tooltip{
+	position: absolute;
+	top: 0px;
+	font-size: 17px;
+	border-radius: 20px;
+	padding: 8px 8px;
+	color: #ffffff;
+	background: rgb(7, 7, 7);
+	box-shadow: 0 10px 10px rgba(252, 252, 252, 0.1);
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.4s cubic-bezier(0.68,-0.5,0.265,1.55);
+}
+
+.wrapper .icon:hover .tooltip{
+top: -60px;
+opacity: 1;
+pointer-events: auto;
+}
+
+.wrapper .icon .tooltip::before{
+	position: absolute;
+	content: "";
+	height: 15px;
+	width: 15px;
+	background: rgb(0, 0, 0);
+	bottom: -8px;
+	left: 50%;
+	transform: translateX(-50%) rotate(45deg);
+	transition: all 0.4s cubic-bezier(0.68,-0.5,0.265,1.55);
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before{
+	background: #3b5999;
+}
+
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before{
+	background: #46C1F6;
+}
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before{
+	background: #f01c63;
+}
+.wrapper .linkedin:hover span,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before{
+	background: #02a6ec;
+}
+
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before{
+	background: #f32020;
+}
+

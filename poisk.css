@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|ZCOOL+KuaiLe&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main{
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in;
+}
+
+.poisk-error{
+  width: 400px;
+  height: 400px;
+}
+.po{
+background-color: rgb(61, 126, 248);
+opacity: 0.8;
+border: 1px solid rgb(0, 4, 241);
+width: 90px;
+height: 30px;
+border-radius: 5px;
+}
+.po:hover{
+  background-color:rgb(90, 144, 245);
+  opacity: 0.8;
+}
+.po1{
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.po1:hover{
+  text-decoration: underline;
+}
